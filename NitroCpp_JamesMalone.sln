@@ -4,6 +4,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NitroCpp_JamesMalone", "NitroCpp_JamesMalone\NitroCpp_JamesMalone.vcxproj", "{4956023E-1797-4AA5-B0F0-E221E111C8BA}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B1918E6A-FB09-4292-B68A-AE7D69C4C50F} = {B1918E6A-FB09-4292-B68A-AE7D69C4C50F}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NativeUnitTestNitro", "NitroCpp_JamesMalone\NitroCpp_JamesMaloneTests\NativeUnitTestNitro\NativeUnitTestNitro.vcxproj", "{B1918E6A-FB09-4292-B68A-AE7D69C4C50F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,6 +16,8 @@ Global
 		Debug|x86 = Debug|x86
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
+		Test|x64 = Test|x64
+		Test|x86 = Test|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{4956023E-1797-4AA5-B0F0-E221E111C8BA}.Debug|x64.ActiveCfg = Debug|x64
@@ -21,6 +28,22 @@ Global
 		{4956023E-1797-4AA5-B0F0-E221E111C8BA}.Release|x64.Build.0 = Release|x64
 		{4956023E-1797-4AA5-B0F0-E221E111C8BA}.Release|x86.ActiveCfg = Release|Win32
 		{4956023E-1797-4AA5-B0F0-E221E111C8BA}.Release|x86.Build.0 = Release|Win32
+		{4956023E-1797-4AA5-B0F0-E221E111C8BA}.Test|x64.ActiveCfg = Test|x64
+		{4956023E-1797-4AA5-B0F0-E221E111C8BA}.Test|x64.Build.0 = Test|x64
+		{4956023E-1797-4AA5-B0F0-E221E111C8BA}.Test|x86.ActiveCfg = Debug|Win32
+		{4956023E-1797-4AA5-B0F0-E221E111C8BA}.Test|x86.Build.0 = Debug|Win32
+		{B1918E6A-FB09-4292-B68A-AE7D69C4C50F}.Debug|x64.ActiveCfg = Debug|x64
+		{B1918E6A-FB09-4292-B68A-AE7D69C4C50F}.Debug|x64.Build.0 = Debug|x64
+		{B1918E6A-FB09-4292-B68A-AE7D69C4C50F}.Debug|x86.ActiveCfg = Debug|Win32
+		{B1918E6A-FB09-4292-B68A-AE7D69C4C50F}.Debug|x86.Build.0 = Debug|Win32
+		{B1918E6A-FB09-4292-B68A-AE7D69C4C50F}.Release|x64.ActiveCfg = Release|x64
+		{B1918E6A-FB09-4292-B68A-AE7D69C4C50F}.Release|x64.Build.0 = Release|x64
+		{B1918E6A-FB09-4292-B68A-AE7D69C4C50F}.Release|x86.ActiveCfg = Release|Win32
+		{B1918E6A-FB09-4292-B68A-AE7D69C4C50F}.Release|x86.Build.0 = Release|Win32
+		{B1918E6A-FB09-4292-B68A-AE7D69C4C50F}.Test|x64.ActiveCfg = Release|x64
+		{B1918E6A-FB09-4292-B68A-AE7D69C4C50F}.Test|x64.Build.0 = Release|x64
+		{B1918E6A-FB09-4292-B68A-AE7D69C4C50F}.Test|x86.ActiveCfg = Release|Win32
+		{B1918E6A-FB09-4292-B68A-AE7D69C4C50F}.Test|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
